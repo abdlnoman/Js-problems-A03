@@ -43,3 +43,8 @@ if(fileName[0] === "#" || fileName.slice(-4)  === ".pdf" || fileName.slice(-5) =
 else{
     console.log("Delete");
 }
+
+/** Problem 05 - ( PH Email Generator )  */
+var student= { name: "jhankar" , roll: 1014 ,department: "cse" };
+//write your code here
+console.log(student.name + student.roll + "." + student.department + "@ph.ac.bd" );
