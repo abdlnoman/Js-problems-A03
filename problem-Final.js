@@ -49,3 +49,10 @@ var student= { name: "jhankar" , roll: 1014 ,department: "cse" };
 //write your code here
 
 console.log(student.name + student.roll + "." + student.department + "@ph.ac.bd" );
+
+/** Problem 06 :  (Current Salary )  */
+var experience = 30;
+var startingSalary = 45000;
+//write your code here
+
+console.log((startingSalary * (1.05) ** experience).toFixed(2) );
