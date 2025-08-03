@@ -32,3 +32,14 @@ for(let day = 1 ; day <= lastDay ; day++ ){
         console.log(day + " - rest ");
     }
 }
+
+/** Problem 04 - (Delete / Store) */
+var fileName= "pdfData.jpg";
+//write your code here
+
+if(fileName[0] === "#" || fileName.slice(-4)  === ".pdf" || fileName.slice(-5) === ".docx" ){
+    console.log("Store");
+}
+else{
+    console.log("Delete");
+}
